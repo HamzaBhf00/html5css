@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML - CSS</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <img src="img/computer.jpg" alt="computer">
+        </header>
+        <div id="principal">
+            <nav>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="parrafos.html"><li>Párrafos</li></a>
+                    <a href="enlaces.html"><li>Enlaces</li></a>
+                    <a href="tablas.html"><li>Tablas</li></a>
+                    <a href="listas.html"><li>Listas</li></a>
+                    <a href="formu.html"><li>Formularios</li></a>
+                    <a href="multimedia.html"><li>Multimedia</li></a>
+                    <a href="formhtml5.html"><li>Form Html5</li></a>
+                </ul>
+            </nav>
+            <div id="contenido">
+                <div id="formu">
+                    <h1 class="text-azulo">FORMULARIOS</h1>
+                    <p>La etiqueta principal para hacer formularios es <span class="etiqueta">form</span> </p>
+                    <h2>Formulario básico</h2>
+                    <form action="" method="get" id="formbasico">
+                        <fieldset>
+                            <legend>Login</legend>
+                        <p><input type="text" name="usuario" placeholder="User"></p>
+                        <p><input type="password" name="clave" placeholder="Password"></p>
+                        <p><textarea name="comentarios" cols="30" rows="10" placeholder="Coment"></textarea></p>
+                        <input type="hidden" name="secreto" value="34kkd">
+                        <p><input type="submit" value="Enviar"></p>
+                        </fieldset>
+                    </form>
+                    <h2>Formulario variado</h2>
+                    <form action="" method="get" id="formvariado">
+                        <fieldset>
+                        <p>Lista
+                            <select name="provincia">
+                                <option value="1">Toledo</option>
+                                <option value="2">Cuenca</option>
+                                <option value="3">C. Real</option>
+                                <option value="4">Guadalajara</option>
+                                <option value="5">Albacete</option>
+                            </select>
+                        </p>
+                        <p>Lista Multiple
+                            <select name="colores" multiple size="5">
+                                <option value="1">Azul</option>
+                                <option value="2">Verde</option>
+                                <option value="3">Amarillo</option>
+                                <option value="4">Rojo</option>
+                                <option value="5">Naranja</option>
+                            </select>
+                        </p>
+                        <p><fieldset>
+                            <legend>Aficiones</legend>
+                            <input type="checkbox" name="cine">Cine <br>
+                            <input type="checkbox" name="deporte">Deporte <br>
+                            <input type="checkbox" name="juerga">Jugar <br>
+                            <input type="checkbox" name="viajar">Viajar <br>
+                        </fieldset>
+                        </p>
+                        <p><fieldset>
+                            <legend>Sexo</legend>
+                            <input type="radio" name="sexo" value="hombre">hombre <br>
+                            <input type="radio" name="sexo" value="mujer">mujer <br>
+                            <input type="radio" name="sexo" value="otros">otros <br>
+                            </fieldset>
+                        </p>
+                        <p><input type="submit" value="Aceptar"><input type="reset" value="Clear"></p>
+                    </fieldset>
+                    </form>                
+                
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>
+            S1DAW - &copy; 2021 Azarquiel
+        </footer>
+    </div>
+
+
+
+</body>
+</html>

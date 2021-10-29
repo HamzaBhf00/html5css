@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML - CSS</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <img src="img/computer.jpg" alt="computer">
+        </header>
+        <div id="principal">
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="parrafos.html">
+                        <li>Párrafos</li>
+                    </a>
+                    <a href="enlaces.html">
+                        <li>Enlaces</li>
+                    </a>
+                    <a href="tablas.html">
+                        <li>Tablas</li>
+                    </a>
+                    <a href="listas.html">
+                        <li>Listas</li>
+                    </a>
+                    <a href="formu.html">
+                        <li>Formularios</li>
+                    </a>
+                    <a href="multimedia.html">
+                        <li>Multimedia</li>
+                    </a>
+                    <a href="formhtml5.html">
+                        <li>Form Html5</li>
+                    </a>
+                </ul>
+            </nav>
+            <div id="contenido">
+                <div id="tablas">
+                    <h1 class="text-azulo">TABLAS</h1>
+                    <p>Las etiquetas mas importante para diseñar un tabla son <span class="etiqueta">table</span>, <span
+                        class="etiqueta">tr</span>, <span class="etiqueta">th</span> y <span
+                        class="etiqueta">td</span></p>
+                    <div id="tdefault">
+                        <h2>Tabla default</h2>
+                        <table id="default" border="1">
+                            <thead>
+                                <tr>
+                                    <th id="arch">Archivo</th>
+                                    <td>Abrir</td>
+                                    <td>Cerrar</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th id="arch">Editar</th>
+                                    <td>Copiar</td>
+                                    <td>Pegar</td>
+                                </tr>
+                                <tr>
+                                    <th id="arch">Ayuda</th>
+                                    <td>A cerca de</td>
+                                    <td>FAQ</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h2>Tabla con combinaciones de celdas</h2>
+                        <table id="combi" border="1">
+                            <thead>
+                                <tr>
+                                    <th id="tcombi">Archivo</th>
+                                    <td>Abrir</td>
+                                    <td>Cerrar</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th rowspan="2" id="tcombi">Editar</th>
+                                    <td colspan="2">Copiar</td>
+                                </tr>
+                                <tr>
+    
+                                    <td>A cerca de</td>
+                                    <td>FAQ</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h2>Tabla filas pares e impares</h2>
+                        <table id="tcebra" border="1">
+                            <thead>
+                                <tr>
+                                    <th>Archivo</th>
+                                    <th>Abrir</th>
+                                    <th>Cerrar</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr id="cebra2">
+                                    <td>Editar</td>
+                                    <td>Copiar</td>
+                                    <td>Pegar</td>
+                                </tr>
+                                <tr id="cebra1">
+                                    <td>Ayuda</td>
+                                    <td>A cerca de</td>
+                                    <td>FAQ</td>
+                                </tr>
+                                <tr id="cebra2">
+                                    <td>Editar</td>
+                                    <td>Copiar</td>
+                                    <td>Pegar</td>
+                                </tr>
+                                <tr id="cebra1">
+                                    <td>Ayuda</td>
+                                    <td>A cerca de</td>
+                                    <td>FAQ</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                                         <!---->
+                        <h2>Horario</h2>
+                        <table border="2">
+                            <tr>
+                                <th colspan="6"><i>S1DAW</i></th>
+                            </tr>
+                            <tr>
+                                <th>Horarios</th>
+                                <th>Lunes</th>
+                                <th>Martes</th>
+                                <th>Miércoles</th>
+                                <th>Jueves</th>
+                                <th>Viernes</th>
+                            </tr>
+                            <tr>
+                                <th>8:15 - 9:10</th>
+                                <td class="fol">FOL<br>Prud. Ga, Es<br>(1B-301)<br>FOL</td>
+                                <td class="ende">ENDE<br>Polo Or, Ed<br>(1B-301)<br>ENDE</td>
+                                <td rowspan="2" class="bdd">BDD<br>Bern. Be, Cr<br>(1B-301)<br>BDD</td>
+                                <td class="ing">ING<br>Guti Sa, Joán<br>(1B-301)<br>ING</td>
+                                <td rowspan="2" class="lmsg">LMSG<br>Puli. Mo, Frjo<br>(1B-301)<br>LMSG</td>
+                            </tr>
+                            <tr>
+                                <th>9:10 - 10:05</th>
+                                <td rowspan="2" class="sisi">SISI<br>Mart Ru, To<br>(1B-301)<br>SISI</td>
+                                <td class="ing">ING<br>Guti Sa, Joán<br>(1B-301)<br>ING</td>
+                                <td class="fol">FOL<br>Prud. Ga, Es<br>(1B-301)<br>FOL</td>
+                            </tr>
+                            <tr>
+                                <th>10:05 - 11:00</th>
+                                <td class="prog">PROG<br>Mart Ca, Joja<br>(1B-301)<br>PROG</td>
+                                <td class="ende">ENDE<br>Polo Or, Ed<br>(1B-301)<br>ENDE</td>
+                                <td class="sisi">SISI<br>Mart Ru, To<br>(1B-301)<br>SISI</td>
+                                <td class="sisi">SISI<br>Mart Ru, To<br>(1B-301)<br>SISI</td>
+                            </tr>
+                            <tr>
+                                <!--No hay nada-->
+                                <th></th>
+                                <th colspan="5">Recreo</th>
+                            </tr>
+                            <tr>
+                                <th>11:30 - 12:25</th>
+                                <td class="ende">ENDE<br>Polo Or, Ed<br>(1B-301)<br>ENDE</td>
+                                <td class="prog">PROG<br>Mart Ca, Joja<br>(1B-301)<br>PROG</td>
+                                <td rowspan="2" class="prog">PROG<br>Mart Ca, Joja<br>(1B-301)<br>PROG</td>
+                                <td class="sisi">SISI<br>Mart Ru, To<br>(1B-301)<br>SISI</td>
+                                <td class="sisi">SISI<br>Mart Ru, To<br>(1B-301)<br>SISI</td>
+                            </tr>
+                            <tr>
+                                <th>12:25 - 13:20</th>
+                                <td rowspan="2" class="bdd">BDD<br>Bern. Be, Cr<br>(1B-301)<br>BDD</td>
+                                <td rowspan="2" class="bdd">BDD<br>Bern. Be, Cr<br>(1B-301)<br>BDD</td>
+                                <td rowspan="2" class="lmsg">LMSG<br>Puli. Mo, Frjo<br>(1B-301)<br>LMSG</td>
+                                <td rowspan="2" class="prog">PROG<br>Mart Ca, Joja<br>(1B-301)<br>PROG</td>
+                            </tr>
+                            <tr>
+                                <th>13:20 - 14:15</th>
+                                <td class="fol">FOL<br>Prud. Ga, Es<br>(1B-301)<br>FOL</td>
+
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+            <div class="cb"></div>
+
+        </div>
+        <footer>
+            S1DAW - &copy; 2021 Azarquiel
+        </footer>
+    </div>
+
+
+
+</body>
+
+</html>

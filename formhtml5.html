@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML - CSS</title>
+    <script>
+        function updateTextInput(val) {
+            document.getElementById('textInput').value = val;
+        }
+    </script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <img src="img/computer.jpg" alt="computer">
+        </header>
+        <div id="principal">
+            <nav>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="parrafos.html"><li>Párrafos</li></a>
+                    <a href="enlaces.html"><li>Enlaces</li></a>
+                    <a href="tablas.html"><li>Tablas</li></a>
+                    <a href="listas.html"><li>Listas</li></a>
+                    <a href="formu.html"><li>Formularios</li></a>
+                    <a href="multimedia.html"><li>Multimedia</li></a>
+                    <a href="formhtml5.html"><li>Form Html5</li></a>
+                </ul>
+            </nav>
+            <div id="contenido">
+                <div id="formhtml5">
+                    <h1 class="text-azulo">Formulario HTML5</h1>
+                    <form action="dfgdfg" method="post">
+                    </form>
+
+
+                    <form action="destino.php" method="post" id="formmoderno">
+                        <fieldset>
+                            <legend id="moderno">Formulario Moderno</legend>
+                            <p>Email: <input type="email" name="email"></p>
+                            <p>Url: <input type="url" name="url"></p>
+                            <p>Teléfono: <input type="tel" name="telefono"></p>
+                            <p>Hora: <input type="time" name="hora"></p>
+                            <p>Fecha: <input type="date" name="fecha"></p>
+                            <p>Mes: <input type="month" name="mes"></p>
+                            <p>Semana: <input type="week" name="semana"></p>
+                            <p>Fecha y Hora: <input type="datetime-local" name="fehahora"></p>
+                            <p>Número: <input type="number" name="numero" step="2" min="10" max="30"></p>
+                            <p>Rango: <input type="range" name="rango" step="5" min="5" max="50"
+                                    onchange="updateTextInput(this.value);" />
+                                <input type="text" id="textInput" value="">
+                            </p>
+                            <p>Color: <input type="color" name="color"></p>
+                            <input type="submit" value="Enviar"/>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="cb"></div>
+
+        </div>
+        <footer>
+            S1DAW - &copy; 2021 Azarquiel
+        </footer>
+    </div>
+
+
+
+</body>
+</html>

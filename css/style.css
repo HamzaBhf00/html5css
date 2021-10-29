@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    background-image: url(../img/wall.jpg);
+
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px gainsboro;
+}
+
+header img {
+    width: 100%;
+    height: 150px;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+#contenido {
+    width: 80%;
+    float: right;
+    padding-bottom: 30px;
+}
+footer {
+    background-color: rgb(18, 4, 102);
+    color: rgb(187, 230, 247);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    list-style-type: none;
+    text-align: center;
+    color: rgb(2, 2, 85);
+    font-size: 22px;
+    border: solid 1px rgb(2, 2, 85);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+nav ul li:hover {
+    color: rgb(195, 216, 248);
+    background-color: rgb(2, 2, 85);
+}
+a {
+    text-decoration: none;
+}
+.text-azulo {
+    color: rgb(2, 2, 85);
+}
+#home {
+    text-align: center;
+}
+.titulo {
+    text-align: center;
+}
+.etiqueta{ /** solamnete para la etiqueta <span> **/
+    color: brown;
+    font-size: 34px;
+}
+#parrafos { 
+    padding: 0 10px 30px 10px;
+}
+#pagina{
+    color: darkolivegreen;
+}
+#customd li li {
+    list-style-image: url(../img/corazon.png);
+}
+
+#multimedia{
+    text-align: center;
+}
+.text-azulo{
+    text-align: center;
+}
+#formmoderno fieldset {
+    border-color: blue;
+    text-align: center;
+    font-size: 200%;
+}
+#textInput{
+    text-align: center;
+}
+            /* Estilo para Tablas */
+#default{
+    color: paleturquoise;
+    background-color: burlywood;
+}
+#tdefault{
+
+    text-align: center; 
+}
+#arch{
+    background-color: darkgoldenrod;
+}
+#tcombi{
+background-color: palevioletred;
+color: white;
+}
+#combi{
+    background-color: pink;
+}
+#tcebra{
+    background-color: white;
+}
+#cebra1{
+    background-color: wheat;
+}
+#cebra2{
+    background-color: thistle;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: #f0f0f0;
+    color: #248f88;
+    
+}
+td{
+    color: black;
+    padding: 20px;
+}
+.fol{
+    background-color: #ffd231;
+}
+.ende{
+    background-color: #817fc0;
+}
+.bdd{
+    background-color: #80ff7f;
+}
+.ing{
+    background-color: #eff1c5;
+}
+.sisi{
+    background-color: #c9a1c7;
+}
+.lmsg{
+    background-color: #fe8081;
+}
+.prog{
+    background-color:  #96dc96;
+}
